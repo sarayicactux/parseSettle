@@ -1,0 +1,107 @@
+[
+  {
+    "account": "5022294032374649",
+    "amount": "83333",
+    "refId": "60880cd2ae55bca1c16e1a33"
+  },
+  {
+    "account": "5022294033604242",
+    "amount": "20250",
+    "refId": "60aa13cec4507ce1d57e36e5"
+  },
+  {
+    "account": "5022294033604242",
+    "amount": "33919",
+    "refId": "60aa13cec4507ce1d57e36f1"
+  },
+  {
+    "account": "5022294033818305",
+    "amount": "50000",
+    "refId": "614c108cf30aaf1e2d70b602"
+  },
+  {
+    "account": "5022294033781586",
+    "amount": "150000",
+    "refId": "614c108cf30aaf1e2d70b602"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "10000",
+    "refId": "614c108cf30aaf1e2d70b602"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "190000",
+    "refId": "614c108cf30aaf1e2d70b602"
+  },
+  {
+    "account": "5022294033707078",
+    "amount": "13500000",
+    "refId": "614c1f7e860a6df5525185c2"
+  },
+  {
+    "account": "5022294033818305",
+    "amount": "50000",
+    "refId": "614c7700860a6da43621b502"
+  },
+  {
+    "account": "5022294033781586",
+    "amount": "150000",
+    "refId": "614c7700860a6da43621b502"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "10000",
+    "refId": "614c7700860a6da43621b502"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "190000",
+    "refId": "614c7700860a6da43621b502"
+  },
+  {
+    "account": "5022294033818305",
+    "amount": "50000",
+    "refId": "614cfc26f30aaf1e2d70ce50"
+  },
+  {
+    "account": "5022294033781586",
+    "amount": "150000",
+    "refId": "614cfc26f30aaf1e2d70ce50"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "10000",
+    "refId": "614cfc26f30aaf1e2d70ce50"
+  },
+  {
+    "account": "5022294032418297",
+    "amount": "190000",
+    "refId": "614cfc26f30aaf1e2d70ce50"
+  },
+  {
+    "account": "5022294033283161",
+    "amount": "8700000",
+    "refId": "614d444af30aaf1e2d70ce54"
+  },
+  {
+    "account": "5022294033283161",
+    "amount": "8700000",
+    "refId": "614d67a7f30aaf1e2d70ce62"
+  },
+  {
+    "account": "5022294033116536",
+    "amount": "200000",
+    "refId": "614d72b5f30aaf1e2d70ce6e"
+  },
+  {
+    "account": "5022294033059652",
+    "amount": "10000",
+    "refId": "614d72b5f30aaf1e2d70ce6e"
+  },
+  {
+    "account": "5022294032418230",
+    "amount": "190000",
+    "refId": "614d72b5f30aaf1e2d70ce6e"
+  }
+]

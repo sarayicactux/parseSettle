@@ -1,0 +1,91 @@
+{
+  "totalAmount": 37082800,
+  "descriptions": [
+    {
+      "cardPAN": "5022294034306029",
+      "amount": 100000,
+      "depit": [],
+      "oldAmount": 100000,
+      "details": [
+        {
+          "cardPAN": "5022294034306029",
+          "amount": 100000,
+          "refId": "62cdcdeafa50db846d9019b7"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294034371338",
+      "amount": 36000000,
+      "depit": [],
+      "oldAmount": 36000000,
+      "details": [
+        {
+          "cardPAN": "5022294034371338",
+          "amount": "36000000",
+          "refId": "62ce6592fa50db846d901b9d"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033752421",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 96000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f255f"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2560"
+        },
+        {
+          "amount": 340000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2561"
+        }
+      ],
+      "oldAmount": 936000,
+      "details": [
+        {
+          "cardPAN": "5022294033752421",
+          "amount": "468000",
+          "refId": "62cedb5fbb19c5600619abc2"
+        },
+        {
+          "cardPAN": "5022294033752421",
+          "amount": "468000",
+          "refId": "62cedd2f9bb94f25815c3d02"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033637705",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 46800,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f26c5"
+        }
+      ],
+      "oldAmount": 46800,
+      "details": [
+        {
+          "cardPAN": "5022294033637705",
+          "amount": "23400",
+          "refId": "62cedb5fbb19c5600619abc2"
+        },
+        {
+          "cardPAN": "5022294033637705",
+          "amount": "23400",
+          "refId": "62cedd2f9bb94f25815c3d02"
+        }
+      ]
+    }
+  ],
+  "date": "14010426",
+  "batchId": 29694399967
+}

@@ -1,0 +1,247 @@
+{
+  "totalAmount": 3954141,
+  "descriptions": [
+    {
+      "cardPAN": "5022291401540610",
+      "amount": 238875,
+      "depit": [],
+      "oldAmount": 238875,
+      "details": [
+        {
+          "cardPAN": "5022291401540610",
+          "amount": "238875",
+          "refId": "63712088726199e2a4d1cb1f"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401890775",
+      "amount": 40950,
+      "depit": [],
+      "oldAmount": 40950,
+      "details": [
+        {
+          "cardPAN": "5022291401890775",
+          "amount": "40950",
+          "refId": "63712088726199e2a4d1cb1f"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401866114",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 333375,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2132"
+        }
+      ],
+      "oldAmount": 333375,
+      "details": [
+        {
+          "cardPAN": "5022291401866114",
+          "amount": "7875",
+          "refId": "63712930214346b969a858ed"
+        },
+        {
+          "cardPAN": "5022291401866114",
+          "amount": "325500",
+          "refId": "637390b7551c373429d37cf1"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 1071841,
+      "depit": [
+        {
+          "amount": 600000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2bfb"
+        }
+      ],
+      "oldAmount": 1671841,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1350",
+          "refId": "63712930214346b969a858ed"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "338",
+          "refId": "63712930214346b969a858ed"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1013",
+          "refId": "63712930214346b969a858ed"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "55800",
+          "refId": "637390b7551c373429d37cf1"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "13950",
+          "refId": "637390b7551c373429d37cf1"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "41850",
+          "refId": "637390b7551c373429d37cf1"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "778050",
+          "refId": "63787c7b7b2872527006775c"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "778050",
+          "refId": "637883ff7b28725270067878"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "6379f180e4e8f0ee5ca67754"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "6379f180e4e8f0ee5ca67754"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "6379f6ae59008627b22157d5"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "6379f6ae59008627b22157d5"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "637b63cecb3d8b1045722247"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "637b63cecb3d8b1045722247"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "637b63f38efd8d16242b0d6b"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "637b63f38efd8d16242b0d6b"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294034025561",
+      "amount": 700000,
+      "depit": [],
+      "oldAmount": 700000,
+      "details": [
+        {
+          "cardPAN": "5022294034025561",
+          "amount": 700000,
+          "refId": "6374a6c9ddcbe4a74317da1f"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033205255",
+      "amount": 468000,
+      "depit": [],
+      "oldAmount": 468000,
+      "details": [
+        {
+          "cardPAN": "5022294033205255",
+          "amount": "234000",
+          "refId": "63787c7b7b2872527006775c"
+        },
+        {
+          "cardPAN": "5022294033205255",
+          "amount": "234000",
+          "refId": "637883ff7b28725270067878"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032845333",
+      "amount": 81900,
+      "depit": [],
+      "oldAmount": 81900,
+      "details": [
+        {
+          "cardPAN": "5022294032845333",
+          "amount": "40950",
+          "refId": "63787c7b7b2872527006775c"
+        },
+        {
+          "cardPAN": "5022294032845333",
+          "amount": "40950",
+          "refId": "637883ff7b28725270067878"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401866007",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 29533,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "61b450aca449ca74a64b6561"
+        }
+      ],
+      "oldAmount": 4200,
+      "details": [
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "1050",
+          "refId": "6379f180e4e8f0ee5ca67754"
+        },
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "1050",
+          "refId": "6379f6ae59008627b22157d5"
+        },
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "1050",
+          "refId": "637b63cecb3d8b1045722247"
+        },
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "1050",
+          "refId": "637b63f38efd8d16242b0d6b"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401536683",
+      "amount": 415000,
+      "depit": [],
+      "oldAmount": 415000,
+      "details": [
+        {
+          "cardPAN": "5022291401536683",
+          "amount": 415000,
+          "refId": "6379f9d6f3cd209c003971ca"
+        }
+      ]
+    }
+  ],
+  "date": "14010901",
+  "batchId": 31219066781
+}

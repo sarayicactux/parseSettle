@@ -1,0 +1,104 @@
+{
+  "totalAmount": 64900000,
+  "descriptions": [
+    {
+      "cardPAN": "5022294033059579",
+      "amount": 200000,
+      "depit": [],
+      "oldAmount": 200000,
+      "details": [
+        {
+          "cardPAN": "5022294033059579",
+          "amount": "200000",
+          "refId": "635c622fc7e0dfe4df921e74"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033136245",
+      "amount": 35000,
+      "depit": [],
+      "oldAmount": 35000,
+      "details": [
+        {
+          "cardPAN": "5022294033136245",
+          "amount": "35000",
+          "refId": "635c622fc7e0dfe4df921e74"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 187388,
+      "depit": [
+        {
+          "amount": 477612,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2bfa"
+        }
+      ],
+      "oldAmount": 665000,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "665000",
+          "refId": "635c622fc7e0dfe4df921e74"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401535693",
+      "amount": 24000000,
+      "depit": [],
+      "oldAmount": 24000000,
+      "details": [
+        {
+          "cardPAN": "5022291401535693",
+          "amount": "24000000",
+          "refId": "635cff6dc7e0dfe4df9227b1"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033720097",
+      "amount": 10000000,
+      "depit": [],
+      "oldAmount": 10000000,
+      "details": [
+        {
+          "cardPAN": "5022294033720097",
+          "amount": 10000000,
+          "refId": "635d0428dbbafb3b0e654f72"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033630601",
+      "amount": 20000000,
+      "depit": [],
+      "oldAmount": 20000000,
+      "details": [
+        {
+          "cardPAN": "5022294033630601",
+          "amount": 20000000,
+          "refId": "635d04780f79e9639f267822"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033622699",
+      "amount": 10000000,
+      "depit": [],
+      "oldAmount": 10000000,
+      "details": [
+        {
+          "cardPAN": "5022294033622699",
+          "amount": 10000000,
+          "refId": "635d04cbdbcf4f25da30c4f2"
+        }
+      ]
+    }
+  ],
+  "date": "14010808",
+  "batchId": 30959052116
+}

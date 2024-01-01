@@ -1,0 +1,32 @@
+[
+  {
+    "account": "5022294032418297",
+    "amount": "200000",
+    "refId": "60f243b1c0fd988b72b7f9bd"
+  },
+  {
+    "account": "5022294033744782",
+    "amount": "100000",
+    "refId": "60f25cabc0fd988b72b7fac4"
+  },
+  {
+    "account": "5022294032418230",
+    "amount": "100000",
+    "refId": "60f25cabc0fd988b72b7fac4"
+  },
+  {
+    "account": "5022294033283161",
+    "amount": "17500000",
+    "refId": "60f2c17cd49542dcaa1b517d"
+  },
+  {
+    "account": "5022294033598790",
+    "amount": "200000",
+    "refId": "60f30b932da5a52bbf745e0f"
+  },
+  {
+    "account": "5022294033116536",
+    "amount": "10000",
+    "refId": "60f30b932da5a52bbf745e0f"
+  }
+]

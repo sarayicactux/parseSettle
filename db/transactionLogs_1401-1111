@@ -1,0 +1,91 @@
+{
+  "totalAmount": 3684000,
+  "descriptions": [
+    {
+      "cardPAN": "5022291401898166",
+      "amount": 1500000,
+      "depit": [],
+      "oldAmount": 1500000,
+      "details": [
+        {
+          "cardPAN": "5022291401898166",
+          "amount": "500000",
+          "refId": "63cc3ffcc2a7e7658be1da32"
+        },
+        {
+          "cardPAN": "5022291401898166",
+          "amount": "500000",
+          "refId": "63ce8325c2a7e7658be1ed53"
+        },
+        {
+          "cardPAN": "5022291401898166",
+          "amount": "500000",
+          "refId": "63d74b55c2a7e7658be26dbc"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 1272000,
+      "depit": [],
+      "oldAmount": 1272000,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "400000",
+          "refId": "63cc3ffcc2a7e7658be1da32"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "400000",
+          "refId": "63ce8325c2a7e7658be1ed53"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "30000",
+          "refId": "63d64b1bc2a7e7658be2652c"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "42000",
+          "refId": "63d64b8ec2a7e7658be26530"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "400000",
+          "refId": "63d74b55c2a7e7658be26dbc"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401889389",
+      "amount": 912000,
+      "depit": [],
+      "oldAmount": 912000,
+      "details": [
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "350000",
+          "refId": "63d64b1bc2a7e7658be2652c"
+        },
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "30000",
+          "refId": "63d64b1bc2a7e7658be2652c"
+        },
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "490000",
+          "refId": "63d64b8ec2a7e7658be26530"
+        },
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "42000",
+          "refId": "63d64b8ec2a7e7658be26530"
+        }
+      ]
+    }
+  ],
+  "date": "14011111",
+  "batchId": 32077474904
+}

@@ -1,0 +1,119 @@
+{
+  "totalAmount": 4250,
+  "descriptions": [
+    {
+      "cardPAN": "5022291401526635",
+      "amount": 2100,
+      "depit": [],
+      "oldAmount": 2100,
+      "details": [
+        {
+          "cardPAN": "5022291401526635",
+          "amount": "2100",
+          "refId": "62e68fbddf91c469513e4cfb"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 432,
+      "depit": [],
+      "oldAmount": 432,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "62e68fbddf91c469513e4cfb"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "108",
+          "refId": "62e7cca599968d0559ec1824"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "144",
+          "refId": "62e7cceeb00cb0070975cbc0"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401866007",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 5000,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "5fcf24f7ec93b6057c441648"
+        }
+      ],
+      "oldAmount": 840,
+      "details": [
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "840",
+          "refId": "62e7cccf7d6fde062be4de65"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033591944",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 12504,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "61b829017c5d756fc4bf7bdd"
+        }
+      ],
+      "oldAmount": 36,
+      "details": [
+        {
+          "cardPAN": "5022294033591944",
+          "amount": "36",
+          "refId": "62e7cccf7d6fde062be4de65"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401866122",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 2,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f264e"
+        }
+      ],
+      "oldAmount": 2,
+      "details": [
+        {
+          "cardPAN": "5022291401866122",
+          "amount": "2",
+          "refId": "62e7cccf7d6fde062be4de65"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401865983",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 16667,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "61ff8324507e486bfd0787b5"
+        }
+      ],
+      "oldAmount": 840,
+      "details": [
+        {
+          "cardPAN": "5022291401865983",
+          "amount": "840",
+          "refId": "62e7cceeb00cb0070975cbc0"
+        }
+      ]
+    }
+  ],
+  "date": "14010512",
+  "batchId": 29905487913
+}

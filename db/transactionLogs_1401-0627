@@ -1,0 +1,209 @@
+{
+  "totalAmount": 25752000,
+  "descriptions": [
+    {
+      "cardPAN": "5022294033598717",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 299800,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f25d5"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f25d6"
+        },
+        {
+          "amount": 200,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f25d7"
+        }
+      ],
+      "oldAmount": 800000,
+      "details": [
+        {
+          "cardPAN": "5022294033598717",
+          "amount": "400000",
+          "refId": "62f52a3754373c2f888fef28"
+        },
+        {
+          "cardPAN": "5022294033598717",
+          "amount": "400000",
+          "refId": "62f52a3754373c2f888fef28"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418222",
+      "amount": 1400000,
+      "depit": [],
+      "oldAmount": 1400000,
+      "details": [
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "631c4fd6ad3757f64ffa5c76"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "631c51e5ad3757f64ffa5c7c"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "631c5dd0535fd5706404d63d"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "631c5fdb535fd5706404d643"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "631c7a42535fd5706404d831"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "632054d9535fd570640506fd"
+        },
+        {
+          "cardPAN": "5022294032418222",
+          "amount": "200000",
+          "refId": "63209dd8535fd57064050b11"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033598741",
+      "amount": 10000000,
+      "depit": [],
+      "oldAmount": 10000000,
+      "details": [
+        {
+          "cardPAN": "5022294033598741",
+          "amount": 10000000,
+          "refId": "631c743229b0dc5a124b9ff2"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294034335598",
+      "amount": 10000000,
+      "depit": [],
+      "oldAmount": 10000000,
+      "details": [
+        {
+          "cardPAN": "5022294034335598",
+          "amount": 10000000,
+          "refId": "631c7467db66e24285064d82"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294034279499",
+      "amount": 2600000,
+      "depit": [],
+      "oldAmount": 2600000,
+      "details": [
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63216d72217c72ce754985d5"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "6322e94a12a13a81a6167809"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63230ea91d83aac3c6d59a64"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "6324195b1d83aac3c6d5a508"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63248c521d83aac3c6d5a51b"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63248db31d83aac3c6d5a521"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "632494361d83aac3c6d5a527"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "6324971b1d83aac3c6d5a52f"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63249a811d83aac3c6d5a535"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63249e2d1d83aac3c6d5a72e"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "63249f631d83aac3c6d5a734"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "6324a8de1d83aac3c6d5a747"
+        },
+        {
+          "cardPAN": "5022294034279499",
+          "amount": "200000",
+          "refId": "6324abd01d83aac3c6d5a754"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 900000,
+      "depit": [],
+      "oldAmount": 900000,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "900000",
+          "refId": "6321b1ab217c72ce75499b50"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401889389",
+      "amount": 52000,
+      "depit": [],
+      "oldAmount": 52000,
+      "details": [
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "52000",
+          "refId": "6324321a1d83aac3c6d5a50f"
+        }
+      ]
+    }
+  ],
+  "date": "14010627",
+  "batchId": 30440886038
+}

@@ -1,0 +1,33 @@
+{
+  "totalAmount": 37000000,
+  "descriptions": [
+    {
+      "cardPAN": "5022294034223919",
+      "amount": 36000000,
+      "depit": [],
+      "oldAmount": 36000000,
+      "details": [
+        {
+          "cardPAN": "5022294034223919",
+          "amount": "36000000",
+          "refId": "634124f8fc85fac33bb41d90"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401890775",
+      "amount": 1000000,
+      "depit": [],
+      "oldAmount": 1000000,
+      "details": [
+        {
+          "cardPAN": "5022291401890775",
+          "amount": "1000000",
+          "refId": "634419dce9a632703822370c"
+        }
+      ]
+    }
+  ],
+  "date": "14010723",
+  "batchId": 30795998078
+}

@@ -1,0 +1,51 @@
+{
+  "totalAmount": 7070400,
+  "descriptions": [
+    {
+      "cardPAN": "5022291401893993",
+      "amount": 6480000,
+      "depit": [],
+      "oldAmount": 6480000,
+      "details": [
+        {
+          "cardPAN": "5022291401893993",
+          "amount": 6480000,
+          "refId": "63c6e1eadb74ed46f80b5272"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401889389",
+      "amount": 547200,
+      "depit": [],
+      "oldAmount": 547200,
+      "details": [
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "504000",
+          "refId": "63c6e1eadb74ed46f80b5273"
+        },
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "43200",
+          "refId": "63c6e1eadb74ed46f80b5273"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 43200,
+      "depit": [],
+      "oldAmount": 43200,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "43200",
+          "refId": "63c6e1eadb74ed46f80b5273"
+        }
+      ]
+    }
+  ],
+  "date": "14011028",
+  "batchId": 31915568184
+}

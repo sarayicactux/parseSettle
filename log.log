@@ -1,0 +1,73 @@
+[
+    {
+        "account": "5022294033205255",
+        "amount": 600000,
+        "depit": [],
+        "oldAmount": 600000
+    },
+    {
+        "account": "5022294032845333",
+        "amount": 0,
+        "depit": [
+            {
+                "amount": 15000,
+                "description": "کسر مبلغ بیمه",
+                "insuranceID": "61347df13dab2516767dd9f8"
+            }
+        ],
+        "oldAmount": 15000
+    },
+    {
+        "account": "5022294032418230",
+        "amount": 385000,
+        "depit": [
+            {
+                "amount": 500000,
+                "description": "کسر مبلغ بیمه",
+                "insuranceID": "61347dee3dab2516767dd6b8"
+            }
+        ],
+        "oldAmount": 885000
+    },
+    {
+        "account": "5022294033591944",
+        "amount": 0,
+        "depit": [
+            {
+                "amount": 26444,
+                "description": "کسر مبلغ قسط",
+                "installmentID": "61b829017c5d756fc4bf7bdd"
+            }
+        ],
+        "oldAmount": 100
+    },
+    {
+        "account": "5022294032418297",
+        "amount": 0,
+        "depit": [
+            {
+                "amount": 5,
+                "description": "کسر مبلغ بیمه",
+                "insuranceID": "61347ded3dab2516767dd663"
+            }
+        ],
+        "oldAmount": 5
+    },
+    {
+        "account": "5022294033911746",
+        "amount": 0,
+        "depit": [
+            {
+                "amount": 200000,
+                "description": "کسر مبلغ بیمه",
+                "insuranceID": "61f7ca325085f45a0884bf0a"
+            },
+            {
+                "amount": 100000,
+                "description": "کسر مبلغ بیمه",
+                "insuranceID": "61f7ca325085f45a0884bf0b"
+            }
+        ],
+        "oldAmount": 300000
+    }
+]

@@ -1,0 +1,70 @@
+{
+  "totalAmount": 50014100,
+  "descriptions": [
+    {
+      "cardPAN": "5022291401610678",
+      "amount": 50000000,
+      "depit": [],
+      "oldAmount": 50000000,
+      "details": [
+        {
+          "cardPAN": "5022291401610678",
+          "amount": 50000000,
+          "refId": "6474fdee0ea71929422a47b2"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401612039",
+      "amount": 10500,
+      "depit": [],
+      "oldAmount": 10500,
+      "details": [
+        {
+          "cardPAN": "5022291401612039",
+          "amount": "10500",
+          "refId": "647636a3478634d7cae861d7"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 3150,
+      "depit": [],
+      "oldAmount": 3150,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1800",
+          "refId": "647636a3478634d7cae861d7"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1350",
+          "refId": "647636a3478634d7cae861d7"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401865991",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 450,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2bfc"
+        }
+      ],
+      "oldAmount": 450,
+      "details": [
+        {
+          "cardPAN": "5022291401865991",
+          "amount": "450",
+          "refId": "647636a3478634d7cae861d7"
+        }
+      ]
+    }
+  ],
+  "date": "14020310",
+  "batchId": 34082068789
+}

@@ -1,0 +1,171 @@
+{
+  "totalAmount": 22194868,
+  "descriptions": [
+    {
+      "cardPAN": "5022294034025546",
+      "amount": 700000,
+      "depit": [],
+      "oldAmount": 700000,
+      "details": [
+        {
+          "cardPAN": "5022294034025546",
+          "amount": 700000,
+          "refId": "63554509c7e0dfe4df91ec4d"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401889389",
+      "amount": 6150,
+      "depit": [],
+      "oldAmount": 6150,
+      "details": [
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "5250",
+          "refId": "6357f15b64492c2b6005cf98"
+        },
+        {
+          "cardPAN": "5022291401889389",
+          "amount": "900",
+          "refId": "6357f15b64492c2b6005cf98"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 4428,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f2bfa"
+        }
+      ],
+      "oldAmount": 4428,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "900",
+          "refId": "6357f15b64492c2b6005cf98"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "63590acfa0d60fb60d77cb60"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "180",
+          "refId": "63590acfa0d60fb60d77cb60"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1440",
+          "refId": "63590aed569cefb640c4bc2f"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "1440",
+          "refId": "63590aed569cefb640c4bc2f"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "144",
+          "refId": "63590b342111e3b7bdd96af8"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "144",
+          "refId": "63590b342111e3b7bdd96af8"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401866007",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 73355,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "61b450aca449ca74a64b6561"
+        }
+      ],
+      "oldAmount": 10290,
+      "details": [
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "1050",
+          "refId": "63590acfa0d60fb60d77cb60"
+        },
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "8400",
+          "refId": "63590aed569cefb640c4bc2f"
+        },
+        {
+          "cardPAN": "5022291401866007",
+          "amount": "840",
+          "refId": "63590b342111e3b7bdd96af8"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033718240",
+      "amount": 18800000,
+      "depit": [
+        {
+          "amount": 600000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "62adb20361659e2b079c99ad"
+        },
+        {
+          "amount": 600000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "62adb20361659e2b079c99ae"
+        }
+      ],
+      "oldAmount": 20000000,
+      "details": [
+        {
+          "cardPAN": "5022294033718240",
+          "amount": 10000000,
+          "refId": "6359823cc4f4f67b7d1f4a12"
+        },
+        {
+          "cardPAN": "5022294033718240",
+          "amount": 10000000,
+          "refId": "635982bbcff8270afe454512"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401540990",
+      "amount": 474000,
+      "depit": [],
+      "oldAmount": 474000,
+      "details": [
+        {
+          "cardPAN": "5022291401540990",
+          "amount": "474000",
+          "refId": "635aac3dc7e0dfe4df92113b"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022291401890775",
+      "amount": 1000000,
+      "depit": [],
+      "oldAmount": 1000000,
+      "details": [
+        {
+          "cardPAN": "5022291401890775",
+          "amount": "1000000",
+          "refId": "635aaf29c7e0dfe4df921143"
+        }
+      ]
+    }
+  ],
+  "date": "14010807",
+  "batchId": 30942964616
+}

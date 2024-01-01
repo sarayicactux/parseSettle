@@ -1,0 +1,281 @@
+{
+  "totalAmount": 9338650,
+  "descriptions": [
+    {
+      "cardPAN": "5022294033637697",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 7000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61347e083dab2516767dec55"
+        }
+      ],
+      "oldAmount": 7000,
+      "details": [
+        {
+          "cardPAN": "5022294033637697",
+          "amount": "1400",
+          "refId": "61925bc7eb77fc9faa1e030f"
+        },
+        {
+          "cardPAN": "5022294033637697",
+          "amount": "2100",
+          "refId": "61925be2148947a0540c6bac"
+        },
+        {
+          "cardPAN": "5022294033637697",
+          "amount": "3500",
+          "refId": "61af1cb49ae8333052db7e98"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418230",
+      "amount": 901200,
+      "depit": [],
+      "oldAmount": 901200,
+      "details": [
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "240",
+          "refId": "61925bc7eb77fc9faa1e030f"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "360",
+          "refId": "61925be2148947a0540c6bac"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "600",
+          "refId": "61af1cb49ae8333052db7e98"
+        },
+        {
+          "cardPAN": "5022294032418230",
+          "amount": "900000",
+          "refId": "621b7aa3a1add137d39a1bde"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033315005",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 300,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61347dfe3dab2516767de553"
+        }
+      ],
+      "oldAmount": 300,
+      "details": [
+        {
+          "cardPAN": "5022294033315005",
+          "amount": "60",
+          "refId": "61925bc7eb77fc9faa1e030f"
+        },
+        {
+          "cardPAN": "5022294033315005",
+          "amount": "90",
+          "refId": "61925be2148947a0540c6bac"
+        },
+        {
+          "cardPAN": "5022294033315005",
+          "amount": "150",
+          "refId": "61af1cb49ae8333052db7e98"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033827348",
+      "amount": 5400900,
+      "depit": [
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61347dee3dab2516767dd6b6"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61f7c468940e1cf90ca5775f"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61f7c468940e1cf90ca57760"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61f7c468940e1cf90ca57761"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61f7c468940e1cf90ca57762"
+        },
+        {
+          "amount": 500000,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "61f7c468940e1cf90ca57763"
+        }
+      ],
+      "oldAmount": 8400900,
+      "details": [
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "180",
+          "refId": "61925bc7eb77fc9faa1e030f"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "270",
+          "refId": "61925be2148947a0540c6bac"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "450",
+          "refId": "61af1cb49ae8333052db7e98"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "61e52d3078e28e7f9307a9a2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "62022a123740085bd64b5562"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "62022bdea68c792e4531daf2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204ba5b4d138e4e7e4da7e2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204bc469242304f9e2badf2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204bde6855ca4248474c692"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204c260e9417119a927e902"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204c5a88fadbd389d4878b2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204df66097807729d252da2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204e16b483a4d55010fd572"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204e31644b6be35fb1ff9d2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204e4ff4e932f3b03615dd2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204e65d0a8e50087d055d22"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204e9734830d03b897a6b42"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "6204eaf1ba13f17bf24a96e2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "620788535f45cb4d15036082"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "620789f4be48bd7784386312"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "62078c66176d8b746d2fc1b2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "62078eeca6141409d861c122"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "621b28e318f7bc34be11f3b2"
+        },
+        {
+          "cardPAN": "5022294033827348",
+          "amount": "400000",
+          "refId": "621b2abd01da197c710e5e82"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033780349",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 29250,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "614aea12bc665311457ba7b2"
+        }
+      ],
+      "oldAmount": 29250,
+      "details": [
+        {
+          "cardPAN": "5022294033780349",
+          "amount": "15750",
+          "refId": "621b9b90b55eaf013d58dea7"
+        },
+        {
+          "cardPAN": "5022294033780349",
+          "amount": "6750",
+          "refId": "621b9b90b55eaf013d58dea7"
+        },
+        {
+          "cardPAN": "5022294033780349",
+          "amount": "6750",
+          "refId": "621b9b90b55eaf013d58dea7"
+        }
+      ]
+    }
+  ],
+  "date": "14001209",
+  "batchId": 27914728948
+}

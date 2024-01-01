@@ -1,0 +1,72 @@
+{
+    "totalAmount" : 900000,
+    "descriptions" : [ 
+        {
+            "cardPAN" : "5022294033205255",
+            "amount" : 600000,
+            "depit" : [ 
+                {
+                    "account": "5022294033205255",
+                    "amount": 600000,
+                    "depit": [],
+                    "oldAmount": 600000
+                }
+            ],
+            "oldAmount" : 600000,
+            "details" : [ 
+                    {
+                      "account": "5022294033205255",
+                      "amount": "600000",
+                      "refId": "62032478f7e7451e2b53a4b2"
+                    }
+            ]
+        },
+        {
+            "cardPAN": "5022294032845333",
+            "amount": 0,
+            "depit": [
+                {
+                    "amount": 15000,
+                    "description": "کسر مبلغ بیمه",
+                    "insuranceID": "61347df13dab2516767dd9f8"
+                }
+            ],
+            "oldAmount": 15000,
+            "details" : [
+                {
+                    "account": "5022294032845333",
+                    "amount": "15000",
+                    "refId": "62032478f7e7451e2b53a4b2"
+                }
+            ]
+        },
+        {
+            "cardPAN" : "5022294032418230",
+            "amount" : 285000,
+            "depit" : [
+                {
+                    "account": "5022294032418230",
+                    "amount": 0,
+                    "depit": [
+                        {
+                            "amount": 285000,
+                            "description": "کسر مبلغ بیمه",
+                            "insuranceID": "61347dee3dab2516767dd6b8"
+                        }
+                    ],
+                    "oldAmount": 285000
+                }
+            ],
+            "oldAmount" : "285000",
+            "details" : [
+                  {
+                    "account": "5022294032418230",
+                    "amount": "285000",
+                    "refId": "62032478f7e7451e2b53a4b2"
+                  }
+            ]
+        }
+    ],
+    "date" : "14001121",
+    "batchId" : 27826526565.0
+}

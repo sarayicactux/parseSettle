@@ -1,0 +1,112 @@
+{
+  "totalAmount": 109856,
+  "descriptions": [
+    {
+      "cardPAN": "5022294034300246",
+      "amount": 50000,
+      "depit": [],
+      "oldAmount": 50000,
+      "details": [
+        {
+          "cardPAN": "5022294034300246",
+          "amount": 50000,
+          "refId": "62d01890fa50db846d90351e"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294034376253",
+      "amount": 50000,
+      "depit": [],
+      "oldAmount": 50000,
+      "details": [
+        {
+          "cardPAN": "5022294034376253",
+          "amount": 50000,
+          "refId": "62d15bdefa50db846d9039f5"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033637523",
+      "amount": 9000,
+      "depit": [],
+      "oldAmount": 9000,
+      "details": [
+        {
+          "cardPAN": "5022294033637523",
+          "amount": 9000,
+          "refId": "62d1649afa50db846d9039f7"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033591944",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 26444,
+          "description": "کسر مبلغ قسط",
+          "installmentID": "61b829017c5d756fc4bf7bdd"
+        }
+      ],
+      "oldAmount": 820,
+      "details": [
+        {
+          "cardPAN": "5022294033591944",
+          "amount": "700",
+          "refId": "62d1649afa50db846d9039f8"
+        },
+        {
+          "cardPAN": "5022294033591944",
+          "amount": "45",
+          "refId": "62d1649afa50db846d9039f8"
+        },
+        {
+          "cardPAN": "5022294033591944",
+          "amount": "75",
+          "refId": "62d1649afa50db846d9039f8"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294033775182",
+      "amount": 30,
+      "depit": [],
+      "oldAmount": 30,
+      "details": [
+        {
+          "cardPAN": "5022294033775182",
+          "amount": "30",
+          "refId": "62d1649afa50db846d9039f8"
+        }
+      ]
+    },
+    {
+      "cardPAN": "5022294032418297",
+      "amount": 0,
+      "depit": [
+        {
+          "amount": 6,
+          "description": "کسر مبلغ بیمه",
+          "insuranceID": "629796a243563a25398f264e"
+        }
+      ],
+      "oldAmount": 6,
+      "details": [
+        {
+          "cardPAN": "5022294032418297",
+          "amount": "2",
+          "refId": "62d1649afa50db846d9039f8"
+        },
+        {
+          "cardPAN": "5022294032418297",
+          "amount": "4",
+          "refId": "62d1649afa50db846d9039f8"
+        }
+      ]
+    }
+  ],
+  "date": "14010425",
+  "batchId": 29693944138
+}
