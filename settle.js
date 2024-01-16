@@ -33,6 +33,14 @@ module.exports = async () => {
         }
         txns.push(txn);
       }
+      if (+txn.transaction_type == 110) {
+        txns.push({
+          ...txn,
+          transaction_type: "1",
+          amount: (+txn.amount * 0.01).toFixed(0),
+          income: "cashCardCharge",
+        });
+      }
       if ([2, 7, 11].includes(+txn.transaction_type)) {
         txns.push({
           ...txn,
