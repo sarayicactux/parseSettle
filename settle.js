@@ -9,7 +9,7 @@ module.exports = async () => {
   try {
     console.log("settling...");
     const tmpTxns = await getSettlingTxns();
-    console.log(tmpTxns, 'tmpTxns');
+    console.log(tmpTxns, "tmpTxns");
     const txns = [];
     let shares = [];
     for (const txn of tmpTxns) {
@@ -33,21 +33,18 @@ module.exports = async () => {
         }
         txns.push(txn);
       }
-      if (+txn.transaction_type == 110) {
-        txns.push({
-          ...txn,
-          transaction_type: "1",
-          amount: (+txn.amount * 0.01).toFixed(0),
-          income: "cashCardCharge",
-        });
-      }
       if ([2, 7, 11].includes(+txn.transaction_type)) {
         txns.push({
           ...txn,
           transaction_type: "4",
 
           amount: (
-            +txn.amount * (+txn.transaction_type == 2 ? ([undefined, null, "", " ", NaN].includes(txn.registrantDiscount) ? 0.35 : +txn.registrantDiscount) : 0.7)
+            +txn.amount *
+            (+txn.transaction_type == 2
+              ? [undefined, null, "", " ", NaN].includes(txn.registrantDiscount)
+                ? 0.35
+                : +txn.registrantDiscount
+              : 0.7)
           ).toFixed(0),
         });
         txns.push({
@@ -75,7 +72,8 @@ module.exports = async () => {
         });
       } else if (
         [
-          4, 5, 6, 8, 9, 12, 14, 15, 16, 18, 20, 21, 23, 25, 26, 28, 30, 31, 33, 35, 37, 38
+          4, 5, 6, 8, 9, 12, 14, 15, 16, 18, 20, 21, 23, 25, 26, 28, 30, 31, 33,
+          35, 37, 38,
         ].includes(+txn.transaction_type)
       ) {
         txn.transaction_type = 4;
@@ -95,13 +93,17 @@ module.exports = async () => {
       const memberFind = await members.findOne({ username });
       const newDetail = [];
       let userObjectCard = {};
-      userObjectCard.user_fullname = memberFind?.first_name + " " + memberFind?.last_name;
+      userObjectCard.user_fullname =
+        memberFind?.first_name + " " + memberFind?.last_name;
       userObjectCard.username = username;
       userObjectCard.income = income;
       // userObjectCard.card_number = card?.card_number;
       userObjectCard.amount = amount;
       newDetail.push(userObjectCard);
-      require("fs").appendFileSync(__dirname + "/txs.json", JSON.stringify(userObjectCard, null, 4))
+      require("fs").appendFileSync(
+        __dirname + "/txs.json",
+        JSON.stringify(userObjectCard, null, 4)
+      );
 
       switch (+type) {
         case 1:
@@ -167,7 +169,9 @@ module.exports = async () => {
             const { levels } = (await general.findOne({})).sharings;
             for (const key of Object.keys(levels)) {
               if (
-                levels[key].map((l) => +l).includes(agent && +agent.access_level)
+                levels[key]
+                  .map((l) => +l)
+                  .includes(agent && +agent.access_level)
               ) {
                 level = key;
                 break;
@@ -182,12 +186,14 @@ module.exports = async () => {
               if (refereeCardNumber) {
                 shares.push({
                   account: refereeCardNumber,
-                  amount: username == "parsecard" ? (0.05 * +shares[shares.length - 1].amount).toFixed()
-                    : (
-                      ((!txnLevel ? sharing["referee"] : 0.05 * +share) *
-                        +amount) /
-                      100
-                    ).toFixed(),
+                  amount:
+                    username == "parsecard"
+                      ? (0.05 * +shares[shares.length - 1].amount).toFixed()
+                      : (
+                          ((!txnLevel ? sharing["referee"] : 0.05 * +share) *
+                            +amount) /
+                          100
+                        ).toFixed(),
                   refId,
                 });
               }
@@ -232,15 +238,26 @@ module.exports = async () => {
       }
     }
     require("fs").writeFileSync(
-      __dirname + "/logs/shares" + moment().format("jYYYYjMMjDDHHmmss") + ".json",
+      __dirname +
+        "/logs/shares" +
+        moment().format("jYYYYjMMjDDHHmmss") +
+        ".json",
       JSON.stringify(shares, null, 2)
     );
-    let newShare = []
-    shares.map(s => { if (!["", " ", undefined, null, NaN].includes(s.account)) { newShare.push(s) } });
-    shares = [...newShare]
-    newShare = []
-    shares.map(s => { if (!["", " ", undefined, null, NaN, 0, "0"].includes(s.amount)) { newShare.push(s) } });
-    shares = [...newShare]
+    let newShare = [];
+    shares.map((s) => {
+      if (!["", " ", undefined, null, NaN].includes(s.account)) {
+        newShare.push(s);
+      }
+    });
+    shares = [...newShare];
+    newShare = [];
+    shares.map((s) => {
+      if (!["", " ", undefined, null, NaN, 0, "0"].includes(s.amount)) {
+        newShare.push(s);
+      }
+    });
+    shares = [...newShare];
     var result = [];
     shares.reduce(function (res, value) {
       if (!res[value.account]) {
@@ -255,7 +272,10 @@ module.exports = async () => {
       JSON.stringify(result, null, 2)
     );
     require("fs").writeFileSync(
-      __dirname + "/logs/total-shares-" + moment().format("jYYYYjMMjDD") + ".json",
+      __dirname +
+        "/logs/total-shares-" +
+        moment().format("jYYYYjMMjDD") +
+        ".json",
       JSON.stringify(result, null, 2)
     );
 
@@ -263,29 +283,43 @@ module.exports = async () => {
       result.map((r) => r.account),
       result.map((r) => r.amount)
     );
-    require("./findMember")(result)
+    require("./findMember")(result);
     for (const share of result) {
       const member = await cards.findOne({ card_number: share.account });
-      require("fs").appendFileSync("./shareDetails.log", JSON.stringify({
-        username: member?.username,
-        name: member.first_name + " " + member.last_name,
-        card_numbr: share.account,
-        amount: share.amount
-      }, null, 4), "utf-8");
+      require("fs").appendFileSync(
+        "./shareDetails.log",
+        JSON.stringify(
+          {
+            username: member?.username,
+            name: member.first_name + " " + member.last_name,
+            card_numbr: share.account,
+            amount: share.amount,
+          },
+          null,
+          4
+        ),
+        "utf-8"
+      );
     }
     let newResult = await userDepit(result);
-    console.log(newResult)
-    newShare = []
-    newResult.map(s => { if (!["", " ", undefined, null, NaN, 0, "0"].includes(s.amount)) { newShare.push(s) } });
-    console.log(newResult)
+    console.log(newResult);
+    newShare = [];
+    newResult.map((s) => {
+      if (!["", " ", undefined, null, NaN, 0, "0"].includes(s.amount)) {
+        newShare.push(s);
+      }
+    });
+    console.log(newResult);
     const transactionLog = {
       totalAmount: newResult.map((r) => r.oldAmount).reduce((a, b) => a + b, 0),
       descriptions: newResult.map((r) => ({
         ...r,
-        details: shares.filter((s) => s.account == r.account).map(s => {
-          delete s.depit;
-          return s;
-        }),
+        details: shares
+          .filter((s) => s.account == r.account)
+          .map((s) => {
+            delete s.depit;
+            return s;
+          }),
       })),
       date: moment().format("jYYYYjMMjDD"),
     };
@@ -308,7 +342,8 @@ module.exports = async () => {
         0,
         50
       );
-      transactionLog.batchId = resp["Data"][0]["bonCardCharges"].pop()["BatchId"];
+      transactionLog.batchId =
+        resp["Data"][0]["bonCardCharges"].pop()["BatchId"];
       for (const txn of txns) {
         await transactions.updateOne(
           { _id: txn._id },
@@ -316,15 +351,24 @@ module.exports = async () => {
         );
       }
       await transactionLogs.insertOne(
-        JSON.parse(JSON.stringify(transactionLog).replace(/account/gi, "cardPAN"))
+        JSON.parse(
+          JSON.stringify(transactionLog).replace(/account/gi, "cardPAN")
+        )
       );
       require("fs").writeFileSync(
         __dirname + "/db/transactionLogs_" + moment().format("jYYYY-jMMjDD"),
-        (JSON.stringify(transactionLog, null, 2).replace(/account/gmi, "cardPAN")), "utf-8"
-      )
+        JSON.stringify(transactionLog, null, 2).replace(
+          /account/gim,
+          "cardPAN"
+        ),
+        "utf-8"
+      );
     }
     require("fs").writeFileSync(
-      __dirname + "/logs/shares" + moment().format("jYYYYjMMjDDHHmmss") + ".json",
+      __dirname +
+        "/logs/shares" +
+        moment().format("jYYYYjMMjDDHHmmss") +
+        ".json",
       JSON.stringify(shares, null, 2)
     );
     console.log(
@@ -332,6 +376,6 @@ module.exports = async () => {
     );
     console.log("trrrrrrr!");
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
 };
